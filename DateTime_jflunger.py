@@ -8,6 +8,8 @@ SECONDS_CYCLE = SECONDS_YEAR*4 + SECONDS_DAY
 months_days = [31,28,31,30,31,30,31,31,30,31,30,31]
 months_days_leap = [31,29,31,30,31,30,31,31,30,31,30,31]
 
+time_since_epoch = time.time() #if other timestamp is used, change here
+
 #1st part of problem: get the time
 
 def get_time(timestamp):
@@ -58,4 +60,4 @@ THE TIME SINCE EPOCH IS: ' + str(round(timestamp,3)) + ' SECONDS'
 
 
 if __name__ == '__main__':
-    print(main(timestamp = time.time()))
+    print(main(timestamp = time_since_epoch))
