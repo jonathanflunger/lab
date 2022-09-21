@@ -60,4 +60,4 @@ if __name__ == "__main__":
         start_stop = range(int(sys.argv[1]), int(sys.argv[2])+1)
         print(main(num_list = start_stop, dict = fizzbuzz_dict))
     else:
-        print('Please provide a start and stop range in order to play FizzBuzz, e.g. python Fizzbuzz_jflunger 1 100')
+        print('Please provide a start and stop range in order to play FizzBuzz, e.g. python FizzBuzz_jflunger 1 100')
